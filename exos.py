@@ -56,9 +56,11 @@ def add(x,y):
 -sub (x,y)
 def sub(x,y):
     return x - y
+
 -multiply (x,y)
 def multiply(x,y):
     return x * y
+
 -divide (x,y)
 def divide(x,y):
     if y == 0:
@@ -66,14 +68,27 @@ def divide(x,y):
     else :
         return x / y
 
-
 -modulo (x,y)
+def modulo(x,y):
+    if y == 0:
+        return "error"
+    else :
+        return x % y
+
 -Calcule de salaire que je peux gagner par seconde:
 Salaire horaire;
 Heure par jour ouvrable;
 Nb jour ouvrabe;
+def CalculeSalaireSeconde(SalaireHoraire, HeureOuvrable, NbJourOuvrable):
+    return 
+
 -Calcule salaire net:
 Salaire Brut;
 Coeff;
+def CalculeSalaireNet(SalaireBrut, Coeff):
+    if SalaireBrut == 0:
+        return "error"
+    else :
+    return SalaireBrut / Coeff
 
 FIN
