@@ -162,7 +162,7 @@ tableau = [3,5,5,6,66,99,22,74,36,25,96,58,25,15,48]
 
 print(tableau[14]) #Afficher 15
 
-lend(tableau) #Renvoie la longueur du tableau
+len(tableau) #Renvoie la longueur du tableau
 
 prenom = "Grégoire"
 nom = "Portevin"
@@ -175,12 +175,28 @@ stringIntegerValue = str(342) # renvoie "342"
 # Exercice 1
 # Faire une fonction qui concatene 2 chaines de caractere, les séparents par une virgule 
 
+def fonction(chaineDeCaractereUn, chaineDeCaractereDeux):
+    # Je concatene les 2 chaines de carctere en les séparant par une virgule et retourne "Je saute, je mange"
+    chaineDeCaractere = chaineDeCaractereUn + ", " + chaineDeCaractereDeux
+    # Definir que la fonction est egale a chaine de caractere
+    fonction == chaineDeCaractere
+    #Ecrire la chaine de caractere
+    print(chaineDeCaractere)
+# Appeler la fonction
+fonction("Je mange", "je saute")
+
+
 # Exercice 2
 # Faire une fonction qui itere sur tous les index d'un tableau renvoyant une chaine de caractere 
 # avec l'ensembles des ocurrences d'un chiffre e.g.:
 # Pour tableau = [0,1,1,1,0,1,1,0,1]
 # la fonction(tableau, 0) doit renvoyer "0, 4, 7" n'hesiter pas a implementer la premiere fonction
 
+def execl():
+    tableau = [0,1,1,1,0,1,1,0,1]
+    print(str(tableau))
+
+execl()
 
 
 
