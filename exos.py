@@ -137,7 +137,86 @@ def miniJeuCaractere(x):
     # retourne input quand x est egal a input
     print("Vous avez gagné")
     return input
+
+correction:
+def miniGame(lettre):
+    #Je defini une variable caractereAléatoire qui permet de contenir le caratere généré avec input
+    caractereAléatoire = input()
+    #Tant que caractereAléatoire est different de la lettre souhaitee
+    while caractereAléatoire != lettre:
+        #Alors j'attribue a caractereAléatoire, une nouvelle lettre
+        caractereAléatoire = input() 
+    #Si la lettre souhaitee est egale au caractereAléatoire,
+    if caractereAléatoire == lettre:
+        #Alors j'affiche un message de victoire
+        print("Vous avez gagné")
+
+miniGame('A')
     
+
+
+
+tableau = [3,5,5,6,66,99,22,74,36,25,96,58,25,15,48]
+
+#Pour recuperer 15 je prend dans tableau l'index 14
+
+print(tableau[14]) #Afficher 15
+
+lend(tableau) #Renvoie la longueur du tableau
+
+prenom = "Grégoire"
+nom = "Portevin"
+identite = nom + prenom # retourne "GrégoirePortevin"
+identite = nom + ' ' + prenom # retourne "Grégoire Portevin"
+*
+integerValue = 342 # renvoie 342
+stringIntegerValue = str(342) # renvoie "342"
+
+# Exercice 1
+# Faire une fonction qui concatene 2 chaines de caractere, les séparents par une virgule 
+
+# Exercice 2
+# Faire une fonction qui itere sur tous les index d'un tableau renvoyant une chaine de caractere 
+# avec l'ensembles des ocurrences d'un chiffre e.g.:
+# Pour tableau = [0,1,1,1,0,1,1,0,1]
+# la fonction(tableau, 0) doit renvoyer "0, 4, 7" n'hesiter pas a implementer la premiere fonction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
