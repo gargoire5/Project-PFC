@@ -80,15 +80,65 @@ Salaire horaire;
 Heure par jour ouvrable;
 Nb jour ouvrabe;
 def CalculeSalaireSeconde(SalaireHoraire, HeureOuvrable, NbJourOuvrable):
-    return 
+    # Assigner a Salaire Annuel, le nombre d'heure travaillées pae an
+    salaireAnnuel = SalaireHoraire * HeureOuvrable * NbJourOuvrable
+    # Calculer, puis asssigner a nombre de seconde par an, le nombre de seconde dans une année non-bisextile
+    nombreDeSecondeParAn = 60 * 60 * 24 * 365
+    # Retouner le salaire Annuel divisé par le nombre de seconde par an
+    return salaireAnnuel / nombreDeSecondeParAn
 
 -Calcule salaire net:
 Salaire Brut;
 Coeff;
-def CalculeSalaireNet(SalaireBrut, Coeff):
-    if SalaireBrut == 0:
-        return "error"
+def withdrawFees(total, percent):
+    #Calcule du montant des taxes a retirer :
+    fees = total * (percent / 100)
+    #Retourner la valeur totale moins les taxes
+    return totale - fees 
+
+def calculeSalaireNet(salaireBrut, coeff):
+    #Calculer et retourner le Salaire Net a partir du salaire brut
+    return withdrawFees(salaireBrut, coeff)
+
+def calculeSalaireNet(salaireBrut, public):
+    # Si j'occupe un poste de la fonction public
+    if public : 
+        # alors je retourne le salaire brut - 15% de taxes
+        return withdrawFees(salaireBrut, 15)
+    # Sinon ? C'est ce je suis tavailleur dans le secteur privé, alors je retourne le salaire brut - 23% de douille à l'ancienne
+    else:
+        return withdrawFees(salaireBrut, 23)
+
+def divide(x,y):
+    # si Y est egal a 0, alors la division est impossible
+    if y == 0:
+    # Alors renvoyer un message d'erreur
+        print("Bah alors")
+        return None 
+    # Sinon
     else :
-    return SalaireBrut / Coeff
+    # Retouner le calcul x / y
+        return x / y
+
+
+def input():
+# Renvoie un caractere de type string au hasard
+
+
+# Exercice :
+    # Faire un mini jeu qui affiche un message lorsque input revoie le bon caractere 
+    # Le caractere doit etre parametrable 
+
+
+
+def miniJeuCaractere(x):
+    #tant que la lettre de input est pas la lettre choisie 
+    while input ==! x :
+    # retourne input quand x est egal a input
+    print("Vous avez gagné")
+    return input
+    
+
+
 
 FIN
