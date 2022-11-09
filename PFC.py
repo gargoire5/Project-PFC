@@ -23,6 +23,26 @@
         # Alors retourer "Il y a une erreur"
 
 
+    # Si choixJoueurUn est egale a "pierre" et que choixJoueurDeux est egale a "pierre"
+        # Alors ecrire "Vous avez fait égalité" 
+    # Sinon choixJoueurUn est egale a "feuille" et que choixJoueurDeux est egale a "feuille"
+        # Alors ecrire "Vous avez fait égalité" 
+    # Sinon choixJoueurUn est egale a "ciseau" et que choixJoueurDeux est egale a "ciseau"
+        # Alors ecrire "Vous avez fait égalité" 
+
+    # Si choixJoueurUn est egale a "pierre" et que choixJoueurDeux est egale a "ciseau"
+        # Alors ecrire "Joueur 1 a gagné"  
+    # Sinon choixJoueurUn est egale a "feuille" et que choixJoueurDeux est egale a "pierre"
+        # Alors ecrire "Joueur 1 a gagné" 
+    # Si choixJoueurUn est egale a "ciseau" et que choixJoueurDeux est egale a "feuille"
+        # Alors ecrire "joueur 1 a gagné"
+
+    # Si choixJoueurUn est egale a "feuille" et que choixJoueurDeux est egale a "ciseau"
+        # Alors ecrire "joueur 2 a gagner" 
+    # Sinon choixJoueurUn est egale a "ciseau" et que choixJoueurDeux est egale a "pierre"
+        # Alors ecrire "joueur 2 a gagné" 
+     # Sinon choixJoueurUn est egale a "pierre" et que choixJoueurDeux est egale a "feuille"
+        # Alors ecrire "Joueur 2 a gagné"
 
 
 
