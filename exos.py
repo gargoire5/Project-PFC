@@ -175,15 +175,28 @@ stringIntegerValue = str(342) # renvoie "342"
 # Exercice 1
 # Faire une fonction qui concatene 2 chaines de caractere, les séparents par une virgule 
 
-def fonction(chaineDeCaractereUn, chaineDeCaractereDeux):
-    # Je concatene les 2 chaines de carctere en les séparant par une virgule et retourne "Je saute, je mange"
+# Definir la fonctionconca qui prend comme parametre chaineDeCaractereUn te chaineDeCaractereDeux
+def fonctionconca(chaineDeCaractereUn, chaineDeCaractereDeux):
+    # Concatener les 2 chaines de carctere en les séparant par une virgule et retourne "Je saute, je mange"
     chaineDeCaractere = chaineDeCaractereUn + ", " + chaineDeCaractereDeux
     # Definir que la fonction est egale a chaine de caractere
     fonction == chaineDeCaractere
     #Ecrire la chaine de caractere
     print(chaineDeCaractere)
 # Appeler la fonction
-fonction("Je mange", "je saute")
+fonctionconca("Je mange", "je saute")
+
+correction:
+# Definir la fonction concatWithComa qui prend comme parametre strA et strB
+def concatWithComa(strA, strB)
+    # Assigner a stringifiedStrA le retour de l'execution de la fonction str with comme parametre strA 
+    stringifiedStrA = str(strA)
+    # Assigner a stringifiedStrB le retour de l'execution de la fonction str with comme parametre strB
+    stringifiedStrB = str(strB)
+    # Assigner a chaineResultat la concatenation de stringifiedStrA, de la chaine ", " et de stringifiedStrB
+    chaineResultat = strigifiedStrA + ", " + strigifiedStrB
+    # Retourner chaineResultat   
+    return chaineResultat
 
 
 # Exercice 2
@@ -193,42 +206,42 @@ fonction("Je mange", "je saute")
 # la fonction(tableau, 0) doit renvoyer "0, 4, 7" n'hesiter pas a implementer la premiere fonction
 
 
+correction :
+
+tableau = [0,1,1,1,0,1,1,0,1]
+
+# Definir la fonction findIndexes avec comme parametres une liste tableau et x quelconque
+def findIndexes(tableau, x):
+    # Assigner a i la valeur 0
+    i = 0
+    # Assigner a chaineRetour une chaine de caractere vide "" 
+    chaineRetour = ""
+    # Tant que i est inferieur a la longueur du tableau
+    #On initialise isfirst a vrai
+    isfirst = True
+    while i < len(tableau):
+        # Alors il faut assigner a selected la valeur de tableau à l'index i
+        selected = tableau[i]
+        # Si la valeur de selected est egal a x
+        if selected == x:
+            # Alors
+            # Si isfirst est vrai 
+            if ifirst == True:
+                # Alors on assigne a chaineRetour la valeur de i 
+                chaineRetour = i  
+                # Changer ifirst a faux
+
+            # Sinon
+                # Alors il faut assigner a chaineRetour sa valeur avec la valeur 1
+                chaineRetour = concatWithComa(chaineRetour, i)
+        # Assigner a i sa valeur + 1
+        i = i + 1
+    # Retourner chaineRetour
+    return chaineRetour
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+exercice:
+fonction input
+fonction random
 
 FIN
