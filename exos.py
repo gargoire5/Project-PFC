@@ -192,11 +192,6 @@ fonction("Je mange", "je saute")
 # Pour tableau = [0,1,1,1,0,1,1,0,1]
 # la fonction(tableau, 0) doit renvoyer "0, 4, 7" n'hesiter pas a implementer la premiere fonction
 
-def execl():
-    tableau = [0,1,1,1,0,1,1,0,1]
-    print(str(tableau))
-
-execl()
 
 
 
