@@ -244,4 +244,30 @@ exercice:
 fonction input
 fonction random
 
+
+exercice fibanacci:
+
+def fibonacci(startValue, xMax):
+    result = [0, startValue]
+    calculValue = result[0] + [1]
+    n = 2
+    while calculValue < xMax:
+        result.append(calculValue)
+        previousValue = result[n - 1]
+        prePreviousValue = result[n - 2]
+        calculValue = prePreviousValue + previousValue
+        n = n + 1
+    returnedString = ''
+    isFirst = True
+    for value in result:
+        if isFirst:
+            returnedString = value
+            isFirst = !isFirst
+        else:
+            returnedString = concatWithComa(returnedString, value)
+    return customJoin(result)
+
+print(fibonacci())
+
+
 FIN
