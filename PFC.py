@@ -121,6 +121,3 @@
         # Alors ecrire "C'est une égalité incroyable !!!"
 
 # Fin
-
-
-
