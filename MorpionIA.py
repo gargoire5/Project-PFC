@@ -84,7 +84,7 @@ def theGame(conditionWin):
     while conditionWin!=True:
         if nbTour==9:
             print("Egalité")
-            break;
+            break
         if quelJoueur==1:
             print("Joueur ",quelJoueur, "jouez")
             nbTour=nbTour + 1
@@ -103,9 +103,6 @@ def theGame(conditionWin):
             
         
         displayGrid()
-        if nbTour==9:
-            print("Egalité")
-            break;
         if quelJoueur==2:
             print("Joueur ",quelJoueur, "jouez")
             nbTour=nbTour + 1
@@ -122,11 +119,7 @@ def theGame(conditionWin):
                 break;
             quelJoueur=quelJoueur-1  
         displayGrid()
-        if nbTour==9:
-            print("Egalité")
-            break;
-
-        
+            
         
         
 theGame(False)
